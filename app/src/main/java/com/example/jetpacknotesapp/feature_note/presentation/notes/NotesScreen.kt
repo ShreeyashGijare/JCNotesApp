@@ -1,5 +1,6 @@
 package com.example.jetpacknotesapp.feature_note.presentation.notes
 
+import android.annotation.SuppressLint
 import androidx.compose.animation.*
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -21,6 +22,7 @@ import com.example.jetpacknotesapp.feature_note.presentation.notes.components.Or
 import com.example.jetpacknotesapp.feature_note.presentation.util.Screen
 import kotlinx.coroutines.launch
 
+@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun NotesScreen(
     navController: NavController,
